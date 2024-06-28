@@ -11,6 +11,7 @@ body {
   background-image: url("../assets/background.svg");
   width: 100vw;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 /* header */
@@ -45,7 +46,7 @@ main {
   align-items: center;
   /* justify-content: center; */
   text-align: center;
-  gap: 20px;
+  gap: 30px;
   padding: 20px 10px;
 }
 main h1 {
@@ -90,4 +91,39 @@ main h2 span {
   padding: 13px 23px;
   font-size: 25px;
   border-radius: 8px;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.inputContainer button:hover {
+  background-color: #26ae6f;
+  transition: all ease-in-out 0.3s;
+}
+
+.results {
+  font-size: 20px;
+  font-weight: 500;
+  color: #28323b;
+}
+.results h3 {
+  color: #1dd37f;
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.results p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #28323b;
+}
+
+.results div span {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #000000;
+}
+.results div {
+  margin: 5px 2px;
 }
