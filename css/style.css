@@ -37,6 +37,13 @@ nav button {
   border: none;
   padding: 13px 23px;
   font-size: 15px;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #26ae6f;
+  transition: all ease-in-out 0.3s;
 }
 
 /* main */
@@ -100,6 +107,7 @@ main h2 span {
   transition: all ease-in-out 0.3s;
 }
 
+/* results */
 .results {
   font-size: 20px;
   font-weight: 500;
