@@ -1,0 +1,211 @@
+@media (max-width: 768px) {
+  header {
+    padding: 10px 20px;
+  }
+
+  nav {
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  nav img {
+    width: 80%;
+    text-align: center;
+  }
+
+  nav button {
+    padding: 10px 20px;
+    font-size: 14px;
+    width: 80%;
+    text-align: center;
+    word-break: break-word;
+  }
+
+  main {
+    gap: 20px;
+    padding: 10px;
+  }
+
+  main h1 {
+    font-size: 28px;
+  }
+
+  main h2 {
+    font-size: 30px;
+  }
+
+  .inputContainer {
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+  }
+
+  .inputContainer input[type="email"],
+  .inputContainer button {
+    padding: 10px 15px;
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .results {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .results h3 {
+    font-size: 24px;
+  }
+
+  .results p {
+    font-size: 14px;
+  }
+
+  .results div {
+    margin: 3px 0;
+    word-break: break-word;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 10px 15px;
+  }
+
+  nav {
+    padding: 10px 15px;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+  }
+
+  nav img {
+    width: 70%;
+    text-align: center;
+  }
+
+  nav button {
+    padding: 8px 16px;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    word-break: break-word;
+  }
+
+  main {
+    gap: 15px;
+    padding: 10px 15px;
+  }
+
+  main h1 {
+    font-size: 24px;
+  }
+
+  main h2 {
+    font-size: 28px;
+  }
+
+  .inputContainer {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .inputContainer input[type="email"],
+  .inputContainer button {
+    padding: 8px 10px;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .results {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .results h3 {
+    font-size: 20px;
+  }
+
+  .results p {
+    font-size: 14px;
+  }
+
+  .results div {
+    margin: 2px 0;
+    word-break: break-word;
+  }
+}
+
+@media (max-width: 320px) {
+  header {
+    padding: 10px 10px;
+  }
+
+  nav {
+    padding: 10px 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    text-align: center;
+  }
+
+  nav img {
+    width: 60%;
+    text-align: center;
+  }
+
+  nav button {
+    padding: 5px 10px;
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+    word-break: break-word;
+  }
+
+  main {
+    gap: 10px;
+    padding: 10px 10px;
+  }
+
+  main h1 {
+    font-size: 20px;
+  }
+
+  main h2 {
+    font-size: 24px;
+  }
+
+  .inputContainer {
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+  }
+
+  .inputContainer input[type="email"],
+  .inputContainer button {
+    padding: 5px 8px;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .results {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .results h3 {
+    font-size: 18px;
+  }
+
+  .results p {
+    font-size: 12px;
+  }
+
+  .results div {
+    margin: 1px 0;
+    word-break: break-word;
+  }
+}
